@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.logo {
+  width: 79px;
+  height: 79px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: -0.3rem;
+  left: 4rem;
+}
+.links {
+  display: flex;
+  margin-left: auto;
+  gap: 1.5rem;
+  margin-right: 5rem;
+}
+.location-cont {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: baseline;
+  margin-left: 20rem;
+  background-color: #f8f9fa;
+  border-radius: 1.5rem;
+  padding: 10px;
+  width: 20rem;
+  height: fit-content;
+  transform: translateY(-0.4rem);
+}
+
+.side-cont {
+  display: flex;
+  gap: 5px;
+  transform: translateY(0.45rem);
+}
+.text {
+  font-family: "BlockBertholdTextured";
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-weight: 900;
+  color: #868e96;
+}
+.search-icon {
+  margin-left: 5rem;
+  transform: translateY(0.2rem);
+}
